@@ -73,6 +73,7 @@ btn:focus {
 }
 
 /* Navigation */
+
 .nav {
 }
 .nav-list {
@@ -80,6 +81,10 @@ btn:focus {
   column-gap: 50px;
   font-weight: 500;
   font-size: 14px;
+}
+
+.nav-btn {
+  display: none;
 }
 .nav-link {
 }
@@ -106,7 +111,7 @@ btn:focus {
 .header-content p {
   line-height: 2;
 }
-.header-imege {
+.header-image {
 }
 /* Service */
 .services {
@@ -115,8 +120,12 @@ btn:focus {
 .service-row {
   display: flex;
   column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 60px;
 }
 .service-card {
+  min-width: 315px;
+  flex: 1 1 0;
 }
 .serivce-card-img {
   margin-bottom: 30px;
